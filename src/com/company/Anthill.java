@@ -12,7 +12,7 @@ public class Anthill {
     ArrayList<Ant> AntList = new ArrayList<>();
   //  ArrayList<ArrayList<Character>> map;
     Map map;
-    int n = 5;          //4x4
+    int n = 3;          //4x4
 
     public Anthill() {
         ArrayList<String> s1 = new ArrayList<String>();
@@ -28,7 +28,7 @@ public class Anthill {
 
         AntList.add(a1);
         AntList.add(a2);
-        map = new Map("map6.txt");
+        map = new Map("map4.txt");
     }
 
     public void Cross() {
@@ -89,7 +89,7 @@ public class Anthill {
         map.add(s2);
         map.add(s3);
         map.add(s4);*/
-        map = new Map("map6.txt");
+        map = new Map("map4.txt");
     }
 
     public void outMap() {
